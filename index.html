@@ -251,7 +251,25 @@
   <section class="how-it-works section-pad bg-dark" id="how-it-works">
     <div class="container">
       <div class="section-label light">Getting Started</div>
-      <h2 class="section-title light">Up and running in days, not months</h2>
+      <h2 class="section-title light">Up and running in weeks, not months</h2>
+      <div class="impl-callout">
+        <div class="impl-stat">
+          <span class="impl-num">Weeks</span>
+          <span class="impl-label">Typical time to go live</span>
+        </div>
+        <div class="impl-stat">
+          <span class="impl-num">Zero</span>
+          <span class="impl-label">Software to install</span>
+        </div>
+        <div class="impl-stat">
+          <span class="impl-num">Included</span>
+          <span class="impl-label">Training &amp; onboarding</span>
+        </div>
+        <div class="impl-stat">
+          <span class="impl-num">U.S.-Based</span>
+          <span class="impl-label">Support team</span>
+        </div>
+      </div>
       <p class="section-sub light">We handle the setup. You focus on serving your community.</p>
 
       <div class="steps">
@@ -293,74 +311,67 @@
     </div>
   </section>
 
-  <!-- ===== RESIDENT PORTAL ===== -->
-  <section class="portal section-pad" id="portal">
-    <div class="container portal-inner">
-      <div class="portal-text">
-        <div class="section-label">New Feature</div>
-        <h2 class="section-title">Give residents a window into their loan</h2>
-        <p>The CDM Resident Portal is a white-labeled, branded web portal that lets borrowers check their loan status, payment history, and billing information 24/7 — without calling your office.</p>
-        <ul class="portal-list">
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>Branded for your agency</strong> — your city's logo, colors, and contact info</span>
-          </li>
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>Loan status dashboard</strong> — balance, billing cycle, and payment history</span>
-          </li>
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>Online applications</strong> — residents apply for assistance programs directly through the portal</span>
-          </li>
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>Document upload</strong> — residents submit required documents without a trip to the office</span>
-          </li>
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>Secure identity verification</strong> — passwordless login with rate-limited, audit-logged access</span>
-          </li>
-          <li>
-            <span class="portal-check">✓</span>
-            <span><strong>HUD-compliant data collection</strong> — required demographics captured verbatim during applications</span>
-          </li>
-        </ul>
-        <a href="#contact" class="btn btn-primary btn-lg">Ask About the Portal</a>
-      </div>
-      <div class="portal-visual">
-        <div class="portal-mockup">
-          <div class="mockup-bar">
-            <span class="mockup-dot"></span>
-            <span class="mockup-dot"></span>
-            <span class="mockup-dot"></span>
-            <span class="mockup-url">riverside.cdm.app</span>
+  <!-- ===== PORTALS ===== -->
+  <section class="portals section-pad" id="portal">
+    <div class="container">
+      <div class="section-label">Connected Portals</div>
+      <h2 class="section-title">Everyone who touches a program gets their own purpose-built portal</h2>
+      <p class="section-sub">CDM isn't just for staff. Residents, contractors, and inspectors all interact with your programs — so we're building dedicated portals for each of them.</p>
+
+      <div class="portals-grid">
+
+        <!-- Resident Portal -->
+        <div class="portal-card portal-card--live">
+          <div class="portal-card-header">
+            <div class="portal-card-icon">🏠</div>
+            <span class="portal-badge portal-badge--live">Available Now</span>
           </div>
-          <div class="mockup-body">
-            <div class="mockup-header">
-              <div class="mockup-logo-placeholder"></div>
-              <span class="mockup-agency">City of Riverside</span>
-            </div>
-            <div class="mockup-card">
-              <div class="mockup-card-label">Your Loan Balance</div>
-              <div class="mockup-card-value">$24,500.00</div>
-              <div class="mockup-card-status">● In Good Standing</div>
-            </div>
-            <div class="mockup-row">
-              <div class="mockup-row-label">Next Payment Due</div>
-              <div class="mockup-row-val">May 1, 2026</div>
-            </div>
-            <div class="mockup-row">
-              <div class="mockup-row-label">Amount Due</div>
-              <div class="mockup-row-val">$312.50</div>
-            </div>
-            <div class="mockup-row">
-              <div class="mockup-row-label">Program</div>
-              <div class="mockup-row-val">Home Repair Loan</div>
-            </div>
-            <div class="mockup-btn">View Payment History</div>
-          </div>
+          <h3>Resident Portal</h3>
+          <p>A white-labeled, branded web portal that lets borrowers manage their loans 24/7 — without calling your office.</p>
+          <ul class="portal-list">
+            <li><span class="portal-check">✓</span><span><strong>Branded per agency</strong> — your logo, colors, and contact info</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Loan status dashboard</strong> — balance, billing cycle, and payment history</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Online applications</strong> — apply for assistance programs directly</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Document upload</strong> — submit required docs without a trip to the office</span></li>
+            <li><span class="portal-check">✓</span><span><strong>HUD-compliant data collection</strong> — required demographics captured verbatim</span></li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-lg">Ask About the Resident Portal</a>
         </div>
+
+        <!-- Contractor Portal -->
+        <div class="portal-card portal-card--soon">
+          <div class="portal-card-header">
+            <div class="portal-card-icon">🔨</div>
+            <span class="portal-badge portal-badge--soon">Coming Soon</span>
+          </div>
+          <h3>Contractor Portal</h3>
+          <p>A self-service portal for contractors to engage with your agency's construction and rehabilitation programs.</p>
+          <ul class="portal-list">
+            <li><span class="portal-check">✓</span><span><strong>Bid on open projects</strong> — view solicitations and submit bids online</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Manage certifications</strong> — upload licenses, insurance, and workforce docs</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Track awarded work</strong> — view active contracts, disbursement status, and change orders</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Submit payment requests</strong> — request disbursements with supporting documentation</span></li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark btn-lg">Get Notified at Launch</a>
+        </div>
+
+        <!-- Inspector Portal -->
+        <div class="portal-card portal-card--soon">
+          <div class="portal-card-header">
+            <div class="portal-card-icon">🔍</div>
+            <span class="portal-badge portal-badge--soon">Coming Soon</span>
+          </div>
+          <h3>Inspector Portal</h3>
+          <p>A mobile-friendly portal for field inspectors to complete checklists and submit findings from the job site.</p>
+          <ul class="portal-list">
+            <li><span class="portal-check">✓</span><span><strong>Digital inspection checklists</strong> — complete and sign off from any device</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Photo documentation</strong> — attach photos directly to inspection records</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Linked to work plans</strong> — findings sync directly to the project in CDM</span></li>
+            <li><span class="portal-check">✓</span><span><strong>Works offline</strong> — complete inspections even without a cell signal</span></li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-dark btn-lg">Get Notified at Launch</a>
+        </div>
+
       </div>
     </div>
   </section>
