@@ -58,19 +58,20 @@ button { cursor: pointer; font-family: inherit; }
 
 .section-label {
   display: inline-block;
-  font-size: 12px;
+  font-size: 0.85rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--cyan);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
+
 .section-label.light { color: var(--cyan); }
 
 .section-title {
-  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.25;
   color: var(--text);
   margin-bottom: 16px;
 }
@@ -429,6 +430,20 @@ button { cursor: pointer; font-family: inherit; }
 }
 .step h3 { font-size: 1rem; font-weight: 700; color: var(--white); margin-bottom: 10px; }
 .step p  { font-size: 0.875rem; color: rgba(255,255,255,0.62); line-height: 1.65; }
+
+.step-optional {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 100px;
+  padding: 1px 8px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
 
 .step-arrow {
   align-self: center;
