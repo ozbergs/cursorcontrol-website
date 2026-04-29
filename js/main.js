@@ -43,10 +43,15 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
-  // Submit to Netlify
+  // Submit to Netlify using URL-encoded form data (required for Netlify Forms AJAX)
   const data = new FormData(form);
-  fetch('/', { method: 'POST', body: data })
-    .then(() => {
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(data).toString()
+  })
+    .then(res => {
+      if (!res.ok) throw new Error('Network response was not ok');
       success.classList.add('visible');
       form.reset();
       setTimeout(() => success.classList.remove('visible'), 6000);
