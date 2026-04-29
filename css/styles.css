@@ -812,6 +812,21 @@ button { cursor: pointer; font-family: inherit; }
   flex-shrink: 0;
   margin-top: 1px;
 }
+.soon-check { color: var(--gray); }
+.coming-soon-inline {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--gray);
+  background: rgba(107,114,128,0.1);
+  border: 1px solid rgba(107,114,128,0.2);
+  border-radius: 100px;
+  padding: 1px 8px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
 
 .btn-outline-dark {
   background: transparent;
