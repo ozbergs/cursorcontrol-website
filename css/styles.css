@@ -640,22 +640,6 @@ button { cursor: pointer; font-family: inherit; }
   box-shadow: 0 0 0 1px var(--cyan), var(--shadow);
   position: relative;
 }
-.pricing-card--main::before {
-  content: 'Most Popular';
-  position: absolute;
-  top: -13px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--cyan);
-  color: var(--white);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 4px 14px;
-  border-radius: 100px;
-  white-space: nowrap;
-}
 
 .pricing-card-label {
   font-size: 0.75rem;
