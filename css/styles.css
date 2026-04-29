@@ -58,9 +58,9 @@ button { cursor: pointer; font-family: inherit; }
 
 .section-label {
   display: inline-block;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--cyan);
   margin-bottom: 14px;
@@ -317,7 +317,7 @@ button { cursor: pointer; font-family: inherit; }
 
 .value-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 48px;
 }
