@@ -379,6 +379,66 @@ button { cursor: pointer; font-family: inherit; }
 .feature-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 10px; color: var(--text); }
 .feature-card p  { font-size: 0.875rem; color: var(--text-light); line-height: 1.65; }
 
+/* ===== SCREENSHOT ===== */
+.screenshot-section { background: var(--off-white); text-align: center; }
+.screenshot-section .section-sub { max-width: 620px; margin: 0 auto 48px; }
+
+.browser-mockup {
+  max-width: 1000px;
+  margin: 0 auto 16px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.14), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.browser-bar {
+  background: #e4e8ee;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.browser-dots {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.browser-dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.browser-dots span:nth-child(1) { background: #ff5f57; }
+.browser-dots span:nth-child(2) { background: #febc2e; }
+.browser-dots span:nth-child(3) { background: #28c840; }
+
+.browser-url {
+  flex: 1;
+  background: white;
+  border-radius: 6px;
+  padding: 5px 14px;
+  font-size: 0.78rem;
+  color: var(--gray);
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.browser-content img {
+  width: 100%;
+  display: block;
+}
+
+.screenshot-caption {
+  font-size: 0.875rem;
+  color: var(--gray);
+  margin-top: 14px;
+}
+
 /* ===== WHO IT'S FOR ===== */
 .who { text-align: center; }
 .who .section-label,
