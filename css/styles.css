@@ -380,7 +380,7 @@ button { cursor: pointer; font-family: inherit; }
 .feature-card p  { font-size: 0.875rem; color: var(--text-light); line-height: 1.65; }
 
 /* ===== SCREENSHOT ===== */
-.screenshot-section { background: var(--off-white); text-align: center; }
+.screenshot-section { background: var(--white); text-align: center; }
 .screenshot-section .section-sub { max-width: 620px; margin: 0 auto 48px; }
 
 .browser-mockup {
