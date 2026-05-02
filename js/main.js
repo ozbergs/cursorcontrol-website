@@ -58,7 +58,7 @@ form.addEventListener('submit', (e) => {
     })
     .catch(() => {
       // Fallback to mailto if fetch fails
-      window.location.href = `mailto:info@cursorcontrol.com?subject=${encodeURIComponent('CDM Pro Inquiry — ' + agency)}`;
+      window.location.href = `mailto:info@cursorcontrol.com?subject=${encodeURIComponent('CDM One Inquiry — ' + agency)}`;
     });
 });
 
