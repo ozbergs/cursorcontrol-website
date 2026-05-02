@@ -684,7 +684,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 
 /* ===== PRICING ===== */
-.pricing { text-align: center; background: var(--off-white); }
+.pricing { text-align: center; background: var(--white); }
 .pricing .section-label,
 .pricing .section-title,
 .pricing .section-sub { display: block; margin-left: auto; margin-right: auto; }
