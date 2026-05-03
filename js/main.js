@@ -97,3 +97,20 @@ document.querySelectorAll(
 const style = document.createElement('style');
 style.textContent = `.visible { opacity: 1 !important; transform: translateY(0) !important; }`;
 document.head.appendChild(style);
+
+// Screenshot tabs
+const screenshotTabs = document.querySelectorAll('.screenshot-tab');
+const caption = document.getElementById('screenshot-caption');
+
+screenshotTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    // Update tabs
+    screenshotTabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    // Update images
+    document.querySelectorAll('.screenshot-img').forEach(img => img.classList.remove('active'));
+    document.getElementById(tab.dataset.screen).classList.add('active');
+    // Update caption
+    if (caption) caption.textContent = tab.dataset.caption;
+  });
+});

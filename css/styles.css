@@ -381,7 +381,46 @@ button { cursor: pointer; font-family: inherit; }
 
 /* ===== SCREENSHOT ===== */
 .screenshot-section { background: var(--white); text-align: center; }
-.screenshot-section .section-sub { max-width: 620px; margin: 0 auto 48px; }
+.screenshot-section .section-sub { max-width: 620px; margin: 0 auto 36px; }
+
+.screenshot-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.screenshot-tab {
+  background: var(--off-white);
+  border: 2px solid var(--gray-light);
+  border-radius: 100px;
+  padding: 10px 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.screenshot-tab:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+.screenshot-tab.active {
+  background: var(--cyan);
+  border-color: var(--cyan);
+  color: var(--white);
+}
+
+.screenshot-img {
+  display: none;
+  width: 100%;
+}
+
+.screenshot-img.active {
+  display: block;
+}
 
 .browser-mockup {
   max-width: 1000px;

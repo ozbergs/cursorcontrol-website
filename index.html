@@ -286,7 +286,16 @@
     <div class="container">
       <div class="section-label">The Platform</div>
       <h2 class="section-title">See CDM One in action</h2>
-      <p class="section-sub">A clean, modern interface built for the way your team actually works — complete loan details, payment schedules, and compliance data all in one place.</p>
+      <p class="section-sub">A clean, modern interface built for the way your team actually works — every module connected, every detail tracked.</p>
+
+      <div class="screenshot-tabs">
+        <button class="screenshot-tab active" data-screen="screenshot-loan" data-caption="Loan Summary — original amount, principal balance, payment schedule, and borrower details tracked in a single, audit-ready view.">
+          📑 Loan Management
+        </button>
+        <button class="screenshot-tab" data-screen="screenshot-workplan" data-caption="Work Plan Summary — construction progress, bidding activity, contract amounts, and key dates tracked end-to-end.">
+          🔨 Construction &amp; Work Plans
+        </button>
+      </div>
 
       <div class="browser-mockup">
         <div class="browser-bar">
@@ -296,10 +305,11 @@
           <div class="browser-url">🔒 cursorcontrol.com · CDM One</div>
         </div>
         <div class="browser-content">
-          <img src="images/screenshot-loan.png" alt="CDM One loan summary screen — loan details, balances, and payment schedule in one view" />
+          <img id="screenshot-loan"     class="screenshot-img active" src="images/screenshot-loan.png"     alt="CDM One loan summary screen showing loan details, balances, and payment schedule" />
+          <img id="screenshot-workplan" class="screenshot-img"        src="images/screenshot-workplan.png" alt="CDM One work plan summary showing construction progress, bids, and contract amounts" />
         </div>
       </div>
-      <p class="screenshot-caption">Loan Summary — original amount, principal balance, payment schedule, and borrower details tracked in a single, audit-ready view.</p>
+      <p class="screenshot-caption" id="screenshot-caption">Loan Summary — original amount, principal balance, payment schedule, and borrower details tracked in a single, audit-ready view.</p>
     </div>
   </section>
 
