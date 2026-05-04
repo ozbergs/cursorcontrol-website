@@ -469,7 +469,6 @@ button { cursor: pointer; font-family: inherit; }
 
 .browser-content img {
   width: 100%;
-  display: block;
 }
 
 .screenshot-caption {
